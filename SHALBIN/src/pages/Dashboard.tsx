@@ -15,7 +15,7 @@ interface SmartLock {
   cooldownUntil?: string;
 }
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://mini-project-ih7a.onrender.com/api';
 
 export default function Dashboard() {
   // ... existing state variables ...
