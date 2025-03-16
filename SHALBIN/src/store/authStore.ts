@@ -14,7 +14,7 @@ interface AuthState {
   signOut: () => void;
 }
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://mini-project-ih7a.onrender.com/api';
 
 export const useAuthStore = create<AuthState>((set) => ({
   user: null,
